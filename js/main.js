@@ -1,0 +1,35 @@
+$( document ).ready(function() {    
+    $('#home-slider').owlCarousel({
+        loop:true,
+        margin:10,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:2
+            }
+        }
+    }) 
+    $('#ourPartner').owlCarousel({
+        loop:true,
+        margin:30,
+        autoplay:true,
+        autoplayTimeout:3000,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    }) 
+
+});

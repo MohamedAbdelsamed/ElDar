@@ -1,0 +1,31 @@
+body{
+    direction: rtl;
+}
+.top-search-social-nav{
+    direction: ltr;
+}
+.navbar-nav{
+    display: flex;
+}
+.about-grid h3{
+    display: contents;
+}
+.about-grid span{
+    margin-top: 15px;
+}
+.about-grid h5 {
+    width: 85%;
+}
+.testmonial,.ourPartner{
+    direction: ltr;
+}
+.testmonial p{
+    text-align: right;
+}
+.footer .top-search-social-nav ul{
+    direction: rtl;
+}
+.grids h3 img {
+    padding-right: 0;  
+    padding-left: 10px;
+}
